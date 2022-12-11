@@ -11,13 +11,13 @@ string input = "start";
 
 while (input != string.Empty)
 {
-    Console.Write("Enter a name: ");
+    Console.Write("Enter a name: dsgsdgsdf");
     input = Console.ReadLine()!.ToLower();
     names.Add(input);
 }
 
 Console.Clear();
-Console.WriteLine("You have entered:");
+Console.WriteLine("You have entered dasfgsdfgsdfgdf:");
 
 foreach(var name in names)
 {
